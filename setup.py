@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 with open("README.md", "r") as f:
     long_description = f.read()
 
-with open("rrequirements.txt", "r") as f:
+with open("requirements.txt", "r") as f:
     requirements = [line.strip() for line in f]
 
 setup(
