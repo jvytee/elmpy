@@ -5,6 +5,9 @@ from setuptools import find_packages, setup
 with open("README.md", "r") as f:
     long_description = f.read()
 
+with open("rrequirements.txt", "r") as f:
+    requirements = [line.strip() for line in f]
+
 setup(
     name="Skelm",
     version="0.0.1",
@@ -21,5 +24,6 @@ setup(
         "Operating System :: OS Independent",
         "Development Status :: 4 - Beta",
     ],
+    install_requires=requirements,
     python_requires='>=3.7'
 )
