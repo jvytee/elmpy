@@ -9,7 +9,7 @@ with open("requirements.txt", "r") as f:
     requirements = [line.strip() for line in f]
 
 setup(
-    name="Skelm",
+    name="skelm",
     version="0.0.1",
     author="jvytee",
     author_email="jvytee@posteo.org",
@@ -17,7 +17,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jvytee/skelm",
-    packages=find_packages("src"),
+    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
