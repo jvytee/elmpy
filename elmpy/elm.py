@@ -1,12 +1,10 @@
-"""Scikit-learn compatible Extreme Learning Machine"""
+"""Basic Extreme Learning Machine implemented in pure NumPy"""
 
 import numpy as np
-from sklearn.base import BaseEstimator, RegressorMixin
 
 
-class Skelm(BaseEstimator, RegressorMixin):
-    """Simple implementation of an extreme learning machine,
-    compatible with scikit-learn""
+class ELMRegressor():
+    """Simple implementation of an Extreme Learning Machine for regression learning
 
     Parameters
     ----------
