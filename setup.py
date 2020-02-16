@@ -9,14 +9,14 @@ with open("requirements.txt", "r") as f:
     requirements = [line.strip() for line in f]
 
 setup(
-    name="skelm",
+    name="ELMPy",
     version="0.0.1",
     author="jvytee",
     author_email="jvytee@posteo.org",
-    description="Simple Extreme Learning Machine for scikit-learn",
+    description="Simple Extreme Learning Machine implemented with NumPy",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jvytee/skelm",
+    url="https://github.com/jvytee/pyelm",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

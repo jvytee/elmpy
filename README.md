@@ -1,5 +1,5 @@
-# Skelm
-A simple Extreme Learning Machine for scikit-learn.
+# ELMPy
+A simple Extreme Learning Machine implemented with NumPy, optionally compatible with scikit-learn.
 **Work in progress!**
 
 ## Features
