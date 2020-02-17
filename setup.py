@@ -5,11 +5,8 @@ from setuptools import find_packages, setup
 with open("README.md", "r") as f:
     long_description = f.read()
 
-with open("requirements.txt", "r") as f:
-    requirements = [line.strip() for line in f]
-
 setup(
-    name="ELMPy",
+    name="ElmPy",
     version="0.0.1",
     author="jvytee",
     author_email="jvytee@posteo.org",
@@ -24,6 +21,11 @@ setup(
         "Operating System :: OS Independent",
         "Development Status :: 4 - Beta",
     ],
-    install_requires=requirements,
+    install_requires=[
+        'numpy'
+    ],
+    extras_require={
+        'sklearn': ['scikit-learn']
+    },
     python_requires='>=3.7'
 )
