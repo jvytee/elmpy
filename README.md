@@ -3,7 +3,9 @@ A simple Extreme Learning Machine implemented with NumPy, optionally compatible 
 **Work in progress!**
 
 ## Features
-TODO
+- Regression using logistic activation function
+- L2 regularization
+- Optional compatibility with scikit-learn, e.g. for use in pipelines
 
 ## Installation
 TODO
