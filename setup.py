@@ -25,7 +25,8 @@ setup(
         'numpy'
     ],
     extras_require={
-        'sklearn': ['scikit-learn']
+        'sklearn': ['scikit-learn'],
+        'test': ['pytest']
     },
     python_requires='>=3.7'
 )
