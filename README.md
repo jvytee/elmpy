@@ -12,8 +12,7 @@ TODO
 TODO
 
 ## Roadmap
-- Create package structure
+- ~Create package structure~
 - Write unit tests
-- Review implementation
 - Implement classifier
 - Add examples
