@@ -3,7 +3,7 @@
 import numpy as np
 
 
-class ELMRegressor():
+class ELMRegressor:
     """Simple implementation of an Extreme Learning Machine for regression learning
 
     Parameters
