@@ -1,5 +1,5 @@
 # ElmPy
-A simple Extreme Learning Machine implemented with NumPy, optionally compatible with scikit-learn.
+A simple Extreme Learning Machine implemented in NumPy, optionally compatible with scikit-learn.
 **Work in progress!**
 
 ## Features
@@ -8,7 +8,14 @@ A simple Extreme Learning Machine implemented with NumPy, optionally compatible 
 - Optional compatibility with scikit-learn, e.g. for use in pipelines
 
 ## Installation
-TODO
+Clone this repository and install using pip:
+
+    git clone https://github.com/jvytee/elmpy.git
+    pip install ./elmpy
+
+To install with scikit-learn dependencies, execute
+
+    pip install ./elmpy[sklearn]
 
 ## Usage
 TODO
