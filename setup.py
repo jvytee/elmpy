@@ -7,14 +7,15 @@ with open("README.md", "r") as f:
 
 setup(
     name="ElmPy",
-    version="0.0.1",
-    author="jvytee",
-    author_email="jvytee@posteo.org",
+    version="0.0.2",
+    author="Julian Theis",
+    author_email="julian.theis@posteo.de",
     description="Simple Extreme Learning Machine implemented with NumPy",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jvytee/pyelm",
-    packages=find_packages(),
+    url="https://github.com/jvytee/elmpy",
+    packages=find_packages("src"),
+    package_dir={"": "src"},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
