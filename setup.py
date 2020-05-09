@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="ElmPy",
-    version="0.0.2",
+    version="0.2.0",
     author="Julian Theis",
     author_email="julian.theis@posteo.de",
     description="Simple Extreme Learning Machine implemented with NumPy",
