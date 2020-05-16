@@ -1,5 +1,5 @@
 # ElmPy
-A simple Extreme Learning Machine implemented in NumPy, optionally compatible with scikit-learn.
+A simple Extreme Learning Machine in python using NumPy, optionally compatible with scikit-learn.
 **Work in progress!**
 
 ## Features
